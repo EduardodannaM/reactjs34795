@@ -1,0 +1,63 @@
+*{
+  font-weight: 400;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+html{
+  position: relative; 
+  min-width: 100%;
+  font-size: 62.5%;  
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+body{
+  background-color: white;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  height: 100%;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.headerLogo{
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  height: auto;
+}
+.headerNav{
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 30px;
+}
+.headerNav .headerNav-h1{
+  color:crimson;
+  font-weight: 600;
+}
+h1{
+  font-size: 18px;
+  color: crimson;
+}
+.headerCarrito{
+  font-size: 16px;
+  padding: 5px 10px;
+}
+.headerCarrito button:hover{
+  font-size: 16px;
+  background-color: white;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: rgba(190, 190, 190, 0.753);
+}
+h3{
+  font-size: 15px;
+}
